@@ -1,10 +1,8 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
+// Replace 'Explore_Japan-main' with your repository name
 export default defineConfig({
-  plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
-});
+  base: '/Explore_Japan-main/',
+  plugins: [react()]
+})
